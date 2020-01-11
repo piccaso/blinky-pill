@@ -1,7 +1,7 @@
 #include <Arduino.h>
 
 void setup() {
-  SerialUSB.begin(115200);
+  SerialUSB.begin();
   pinMode(LED_BUILTIN, OUTPUT);
   digitalWrite(LED_BUILTIN, HIGH);
 }
